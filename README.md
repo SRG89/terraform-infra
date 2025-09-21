@@ -8,7 +8,7 @@ Before diving into the specifics, let's briefly understand what Terraform and CI
 
 Terraform
 
-Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It allows you to define your infrastructure using a high-level configuration language. Terraform uses this configuration to create an execution plan that outlines what it will do to reach the desired state and then executes it to build the described infrastructure.
+Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It allows to define infrastructure using a high-level configuration language. Terraform uses this configuration to create an execution plan that outlines what it will do to reach the desired state and then executes it to build the described infrastructure.
 
 Continuous Integration/Continuous Deployment (CI/CD)
 
@@ -16,7 +16,7 @@ CI/CD is a method to frequently deliver apps to customers by introducing automat
 
 Integrating Terraform with AWS CodePipeline
 
-AWS CodePipeline is a fully managed continuous delivery service that helps automate release pipelines for fast and reliable application and infrastructure updates. Integrating Terraform with AWS CodePipeline allows you to automate the deployment and management of your AWS infrastructure.
+AWS CodePipeline is a fully managed continuous delivery service that helps automate release pipelines for fast and reliable application and infrastructure updates. Integrating Terraform with AWS CodePipeline allows to automate the deployment and management of AWS infrastructure.
 
 Setting Up the Environment
 
@@ -24,7 +24,7 @@ To start, we need an AWS account, Terraform installed on our local machine, and 
 
 Creating a Terraform Configuration
 
-Create a new directory for Terraform configuration and initialize a Terraform project.Create a file named main.tf and add AWS resource configuration.
+We need to create a new directory for Terraform configuration and initialize a Terraform project.Likewise, we need to create a file named main.tf and add AWS resource configuration.
 
 Setting Up AWS CodePipeline
 
