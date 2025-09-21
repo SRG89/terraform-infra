@@ -38,7 +38,7 @@ Once the pipeline is set up, any commit to the repository will trigger the pipel
 
 Best Practices for Terraform and CI/CD Integration
 
-1. Use Remote State: Store your Terraform state file in a remote backend like S3 to share state across team and prevent conflicts.
+1. Use Remote State: Store Terraform state file in a remote backend like S3 to share state across team and prevent conflicts.
 2. Implement Workspaces: Use Terraform workspaces to manage separate environments (e.g., development, staging, production) within the same configuration.
 3. Secure Secrets: Use tools like AWS Secrets Manager or HashiCorp Vault to manage secrets and sensitive information. Avoid hardcoding secrets in Terraform configuration or buildspec.yml.
 4. Review Pull Requests: Implement a code review process for changes to Terraform configuration to ensure quality and compliance.
